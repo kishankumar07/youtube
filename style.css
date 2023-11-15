@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #181818;
+   
+}
+.header{
+    background-color: #181818;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-image{
+    position: relative;
+    width: 33px;
+    height: 50px;
+}
+.logo-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.logo-menu-icon i{
+    color:#fff;
+   
+}
+.logo-menu-icon{
+   width: 35px;
+    height: 35px;
+
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-menu-icon:hover{
+    background-color: #373737;
+    border-radius: 50px;
+}
+.logo a,h2{
+    text-decoration: none;
+}
+h2{
+    letter-spacing: -1.5px;
+    font-family: Roboto;
+    color: #fff;
+}
+span a{
+    color: #fff;
+    margin: 4px;
+    font-size: 9px;
+    margin: 12px 0 31px 4px;
+    display: block;
+    letter-spacing: 0.6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Logo part finish*/
+
+/*Search part*/
+
+input[type=text]{
+    max-width: 100%;
+    width: 567px;
+    height: 38px;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 11px;
+    background-color: #181818;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+input[type=text]:focus{
+    outline: none;
+}
+
+.search-bar-container{
+    display: flex;
+    position: relative;
+    padding-top: 9px;
+}
+button.lens{
+    width: 48px;
+    color: #fff;
+    height: 38px;
+    background-color: #373737;
+    border: none;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    cursor: pointer;
+}
+button.mic{
+    width: 34px;
+    color: #fff;
+    height: 38px;
+    background-color: #373737;
+    border-radius: 50%;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+button.mic:focus{
+    background-color: #fff;
+    color: #181818;
+}
+
+/*Search area finish*/
+
+/*Profile area starts here*/
+
+.profile-box-container{
+    display: flex;
+    width: 123px;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+}
+.profile-image{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+[class*=video]{
+    margin-right: 30px;
+}
+[class*=noti]{
+    margin-right: 22px;
+}
+
+/*header finish*/
+
+/*Body start*/
+/*left side bar*/
+
+.left-side-bar {
+    
+    position: fixed;
+    left: 24px;
+
+    top: 53px;
+    
+    display: flex;
+    
+    width: 210px;
+    overflow-y: scroll;
+    height:calc(100vh - 53px);/*Important arear*/
+    flex-direction: column;
+    line-height: 35px;
+
+.bro{
+    display: flex;
+    align-items: center;
+}
+}
+.brototype{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.brototype img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*Jennys*/
+.jenny{
+    display: flex;
+    align-items: center;
+}
+
+.jennyslec{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.jennyslec img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*Web diary*/
+.web{
+    display: flex;
+    align-items: center;
+}
+
+.webdiary{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.webdiary img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*vanessa english*/
+.vanessa{
+    display: flex;
+    align-items: center;
+}
+
+.vanessa-english{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.vanessa-english img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Copyright{
+    padding: 10px;
+    line-height: 20px;
+    color: #fff;
+}
+.left-side-bar [href]/*notr here, space needed before attribute*/
+{
+    color: #fff;
+    padding-left: 16px;
+}   
+.left-side-bar a{
+    text-decoration: none;
+}
+
+.padding{
+    padding-left: 16px;
+}
+.you-prt{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.you-prt [class*=arrow]{
+    padding-left: 5px;
+}
+.backc{
+    background-color: #373737;
+    border-radius: 11px;
+}
+
+.hover:hover{
+    background-color: #373737;
+    border-radius: 11px;
+}
+.you-prt:hover{
+    background-color: #373737;
+    border-radius: 11px;
+    background-size: 20px;
+}
+.hover{
+    width: 181px;
+}
